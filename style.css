@@ -179,7 +179,7 @@ body {
   
   .page-footer {
     padding: 20px 0;
-    background-color: #00417d;
+    background-color: #1c3750;
     font-size: 16px;
     color: #ffffff;
   }
@@ -200,4 +200,34 @@ body {
   .footer-phone {
     padding-left: 25px;
     background-image: url("img/icon-phone-footer.svg");
+  }
+
+  .up-button {
+    position: fixed;
+    z-index: 1;
+    padding: 0;
+    bottom: 60px;
+    right: 90px;
+    width: 64px;
+    height: 64px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    border: 5px solid;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .shown {
+    display: inline-block;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  html {
+    scroll-behavior: smooth; 
   }
